@@ -12,6 +12,7 @@ Group:		X11/Applications/Multimedia
 Source0:	http://thegraveyard.org/files/%{org_name}-%{version}.tar.gz
 # Source0-md5:	79c6e786adec729e9d50dff05b3ceb1a
 URL:		http://thegraveyard.org/xmmplayer.php
+BuildRequires:	pkgconfig
 BuildRequires:	rpmbuild(macros) >= 1.125
 BuildRequires:	xmms-devel >= 1.2.0
 Requires:	mplayer
