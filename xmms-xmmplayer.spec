@@ -5,11 +5,12 @@
 Summary:	Plugin for XMMS that uses mplayer to play video files
 Summary(pl):	Wtyczka dla XMMS-a u¿ywaj±ca mplayera do odtwarzania filmów
 Name:		xmms-%{org_name}
-Version:	0.1.0
+Version:	0.2.1
 Release:	0.1
 License:	GPL
 Group:		X11/Applications/Multimedia
-Source0:	http://dl.sourceforge.net/sourceforge/%{name}/%{org_name}-%{version}.tar.gz
+# Source0-md5:	39ce06f12ae36a78fcc3694090acbd29
+Source0:	http://thegraveyard.org/files/%{org_name}-%{version}.tar.gz
 URL:		http://thegraveyard.org/xmmplayer.php
 BuildRequires:	xmms-devel >= 1.2.0
 Requires:	mplayer
@@ -42,4 +43,4 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc AUTHORS ChangeLog README NEWS 
-%attr(755,root,root) %{_libdir}/xmms/Input/*.so
+%attr(755,root,root) %{_libdir}/xmms/Input/libxmmplayer.*
