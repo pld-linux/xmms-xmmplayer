@@ -39,10 +39,12 @@ rm -rf $RPM_BUILD_ROOT
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
+rm -f $RPM_BUILD_ROOT%{xmms_input_plugindir}/libxmmplayer.la
+
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
 %doc AUTHORS ChangeLog NEWS README TODO
-%attr(755,root,root) %{xmms_input_plugindir}/libxmmplayer.*
+%attr(755,root,root) %{xmms_input_plugindir}/libxmmplayer.so
