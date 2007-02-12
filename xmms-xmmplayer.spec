@@ -2,7 +2,7 @@
 %define		org_name	xmmplayer
 
 Summary:	Plugin for XMMS that uses mplayer to play video files
-Summary(pl.UTF-8):   Wtyczka dla XMMS-a używająca mplayera do odtwarzania filmów
+Summary(pl.UTF-8):	Wtyczka dla XMMS-a używająca mplayera do odtwarzania filmów
 Name:		xmms-%{org_name}
 Version:	0.3.3
 Release:	0.1
