@@ -2,7 +2,7 @@
 %define		org_name	xmmplayer
 
 Summary:	Plugin for XMMS that uses mplayer to play video files
-Summary(pl):	Wtyczka dla XMMS-a uøywaj±ca mplayera do odtwarzania filmÛw
+Summary(pl.UTF-8):   Wtyczka dla XMMS-a u≈ºywajƒÖca mplayera do odtwarzania film√≥w
 Name:		xmms-%{org_name}
 Version:	0.3.3
 Release:	0.1
@@ -22,9 +22,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 XMMPlayer is an input plugin for XMMS that allows you to play video
 files from within XMMS (using mplayer).
 
-%description -l pl
-XMMPlayer to wtyczka dla XMMS-a umoøliwiaj±ca odtwarzanie plikÛw z
-filmami z poziomu XMMS-a (przy uøyciu mplayera).
+%description -l pl.UTF-8
+XMMPlayer to wtyczka dla XMMS-a umo≈ºliwiajƒÖca odtwarzanie plik√≥w z
+filmami z poziomu XMMS-a (przy u≈ºyciu mplayera).
 
 %prep
 %setup -q -n %{org_name}-%{version}
